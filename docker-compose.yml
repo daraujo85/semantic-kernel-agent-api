@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: . # O contexto de build é o diretório atual (onde está o Dockerfile)
+      dockerfile: Dockerfile # Especifica o nome do Dockerfile a ser usado
+    env_file: # Adiciona esta seção para carregar variáveis de um arquivo
+      - .env   # Especifica o arquivo .env na raiz do projeto

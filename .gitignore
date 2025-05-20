@@ -1,0 +1,53 @@
+# Arquivos de dependências e pacotes
+**/[Bb]in/
+**/[Oo]bj/
+**/packages/
+*.nupkg
+*.nugetresponse
+
+# Arquivos gerados pelo build
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de configuração local
+secrets.json
+appsettings.Development.json
+
+# Arquivos do Visual Studio / VSCode
+.vs/
+.vscode/ # Configurações e arquivos temporários do VSCode
+*.csproj.user
+*.vbproj.user
+
+# Arquivos do Rider (Jetbrains)
+.idea/
+*.iml
+.env
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos temporários do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos de teste
+**/TestResults/
+*.VisualState.xml
+
+# Arquivos de cache do Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Arquivos de backup do editor
+*~
+*.bak
+*.tmp
+
+# Arquivos de configuração do Docker (se aplicável)
+docker-compose.override.yml
+.dockerignore
